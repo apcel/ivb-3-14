@@ -1,0 +1,40 @@
+﻿Сборка начата 12.07.2015 21:22:49.
+     1>Проект "C:\Users\Andrey\Desktop\практика\my_decision\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ConsoleApplication1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(74): warning C4042: e: имеет недопустимый класс хранения
+                 c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(230): см. ссылку на создание экземпляров класса шаблон при компиляции "MyVector<Type>"
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(74): warning C4042: comp: имеет недопустимый класс хранения
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(84): warning C4042: e: имеет недопустимый класс хранения
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(84): warning C4042: comp: имеет недопустимый класс хранения
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(116): warning C4042: e1: имеет недопустимый класс хранения
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(116): warning C4042: comp1: имеет недопустимый класс хранения
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(126): warning C4042: e1: имеет недопустимый класс хранения
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(126): warning C4042: comp1: имеет недопустимый класс хранения
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(134): warning C4042: e1: имеет недопустимый класс хранения
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(134): warning C4042: comp1: имеет недопустимый класс хранения
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\main.cpp(10): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(38): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+                 c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(37): при компиляции функции-члена "void MyVector<int>::rand_fill(void)" класса шаблон
+                 c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\main.cpp(67): см. ссылку на создание экземпляров функции шаблон при компиляции "void MyVector<int>::rand_fill(void)"
+                 c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\main.cpp(28): см. ссылку на создание экземпляров класса шаблон при компиляции "MyVector<int>"
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(55): warning C4018: <: несоответствие типов со знаком и без знака
+                 c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(47): при компиляции функции-члена "void MyVector<int>::sort_shell(void)" класса шаблон
+                 c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\main.cpp(42): см. ссылку на создание экземпляров функции шаблон при компиляции "void MyVector<int>::sort_shell(void)"
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(173): warning C4101: i: неиспользованная локальная переменная
+                 c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(172): при компиляции функции-члена "int MyVector<int>::find_fibonachi(const int,const int)" класса шаблон
+                 c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\main.cpp(58): см. ссылку на создание экземпляров функции шаблон при компиляции "int MyVector<int>::find_fibonachi(const int,const int)"
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(167): warning C4244: return: преобразование "unsigned __int64" в "int", возможна потеря данных
+                 c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(160): при компиляции функции-члена "int MyVector<int>::number_fib(const int)" класса шаблон
+                 c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(176): см. ссылку на создание экземпляров функции шаблон при компиляции "int MyVector<int>::number_fib(const int)"
+     1>c:\users\andrey\desktop\практика\my_decision\consoleapplication1\consoleapplication1\interface.h(169): warning C4715: MyVector<int>::number_fib: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Andrey\Desktop\практика\my_decision\ConsoleApplication1\Debug\MyVector.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Andrey\Desktop\практика\my_decision\ConsoleApplication1\Debug\MyVector.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Andrey\Desktop\практика\my_decision\ConsoleApplication1\Debug\MyVector.lib" /MACHINE:X86 Debug\main.obj
+         ConsoleApplication1.vcxproj -> C:\Users\Andrey\Desktop\практика\my_decision\ConsoleApplication1\Debug\MyVector.exe
+     1>Сборка проекта "C:\Users\Andrey\Desktop\практика\my_decision\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:07.83

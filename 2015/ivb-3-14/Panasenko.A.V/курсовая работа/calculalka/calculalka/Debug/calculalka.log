@@ -1,0 +1,17 @@
+﻿Сборка начата 31.07.2015 18:34:52.
+     1>Проект "C:\Users\Andrey\Documents\GitHub\2014\ivb-3-14\Panasenko.A.V\курсовая работа\calculalka\calculalka\calculalka.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp calculate.cpp
+         calculate.cpp
+     1>c:\users\andrey\documents\github\2014\ivb-3-14\panasenko.a.v\курсовая работа\calculalka\calculalka\calculate.cpp(103): warning C4018: <: несоответствие типов со знаком и без знака
+         main.cpp
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Andrey\Documents\GitHub\2014\ivb-3-14\Panasenko.A.V\курсовая работа\calculalka\Debug\calculalka.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Andrey\Documents\GitHub\2014\ivb-3-14\Panasenko.A.V\курсовая работа\calculalka\Debug\calculalka.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Andrey\Documents\GitHub\2014\ivb-3-14\Panasenko.A.V\курсовая работа\calculalka\Debug\calculalka.lib" /MACHINE:X86 Debug\main.obj
+         Debug\calculate.obj
+         calculalka.vcxproj -> C:\Users\Andrey\Documents\GitHub\2014\ivb-3-14\Panasenko.A.V\курсовая работа\calculalka\Debug\calculalka.exe
+     1>Сборка проекта "C:\Users\Andrey\Documents\GitHub\2014\ivb-3-14\Panasenko.A.V\курсовая работа\calculalka\calculalka\calculalka.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.68

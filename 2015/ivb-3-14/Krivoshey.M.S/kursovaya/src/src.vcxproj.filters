@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Control">
+      <UniqueIdentifier>{b4f7642d-eff0-4542-8975-45cfe1454133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Utilit">
+      <UniqueIdentifier>{8a3e0cd2-2caf-4bf5-b591-a4a06a3fdf52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Game">
+      <UniqueIdentifier>{513f5170-31c9-4b3f-93d8-23bd63524763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Control">
+      <UniqueIdentifier>{3c585551-9103-45c2-947c-b790d4834de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Utilit">
+      <UniqueIdentifier>{30f6872c-1603-42e5-9d03-ec3d5b6c491d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Game">
+      <UniqueIdentifier>{25d19caa-4f17-4375-b1e7-2382e2a6f73a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Window">
+      <UniqueIdentifier>{98dbff35-88c7-4de5-8168-30cc884a2abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Window">
+      <UniqueIdentifier>{13e0ef6f-5ccf-4ec2-a1e9-1bf9511700fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\SDK">
+      <UniqueIdentifier>{b1d95724-776b-4123-9af9-bdfcc6aeaa00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\SDK">
+      <UniqueIdentifier>{3efe7b9a-d23b-4d6a-9af7-44db0d5cbbd4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Файлы исходного кода\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Файлы исходного кода\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="laber.cpp">
+      <Filter>Файлы исходного кода\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Файлы исходного кода\Utilit</Filter>
+    </ClCompile>
+    <ClCompile Include="utilit.cpp">
+      <Filter>Файлы исходного кода\Utilit</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Файлы исходного кода\Utilit</Filter>
+    </ClCompile>
+    <ClCompile Include="scaleValue.cpp">
+      <Filter>Файлы исходного кода\Utilit</Filter>
+    </ClCompile>
+    <ClCompile Include="dds.cpp">
+      <Filter>Файлы исходного кода\Utilit</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="unit.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="setting.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Файлы исходного кода\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBox.cpp">
+      <Filter>Файлы исходного кода\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="setting_menu.cpp">
+      <Filter>Файлы исходного кода\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="game_end.cpp">
+      <Filter>Файлы исходного кода\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="help_menu.cpp">
+      <Filter>Файлы исходного кода\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="main_menu.cpp">
+      <Filter>Файлы исходного кода\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="pause_menu.cpp">
+      <Filter>Файлы исходного кода\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="level_editor.cpp">
+      <Filter>Файлы исходного кода\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="dlg_YesNo.cpp">
+      <Filter>Файлы исходного кода\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="ai.cpp">
+      <Filter>Файлы исходного кода\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>Файлы исходного кода\Control</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hendel.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.hpp">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.hpp">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="laber.hpp">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="dds.hpp">
+      <Filter>Заголовочные файлы\Utilit</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.hpp">
+      <Filter>Заголовочные файлы\Utilit</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.hpp">
+      <Filter>Заголовочные файлы\Utilit</Filter>
+    </ClInclude>
+    <ClInclude Include="scaleValue.hpp">
+      <Filter>Заголовочные файлы\Utilit</Filter>
+    </ClInclude>
+    <ClInclude Include="utilit.hpp">
+      <Filter>Заголовочные файлы\Utilit</Filter>
+    </ClInclude>
+    <ClInclude Include="game.hpp">
+      <Filter>Заголовочные файлы\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="unit.hpp">
+      <Filter>Заголовочные файлы\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="setting.hpp">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.hpp">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBox.hpp">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="game_end.hpp">
+      <Filter>Заголовочные файлы\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="help_menu.hpp">
+      <Filter>Заголовочные файлы\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="main_menu.hpp">
+      <Filter>Заголовочные файлы\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="pause_menu.hpp">
+      <Filter>Заголовочные файлы\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="setting_menu.hpp">
+      <Filter>Заголовочные файлы\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="level_editor.hpp">
+      <Filter>Заголовочные файлы\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="dlg_YesNo.hpp">
+      <Filter>Заголовочные файлы\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ai.hpp">
+      <Filter>Заголовочные файлы\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.hpp">
+      <Filter>Заголовочные файлы\Control</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

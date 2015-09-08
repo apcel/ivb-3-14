@@ -9,18 +9,18 @@ using namespace std;
 
 class Item
 {
-    friend istream & operator >> (istream &f, Item &i);
-    friend ostream & operator << (ostream &f, const Item &i);
+	friend istream & operator >> (istream &f, Item &i);
+	friend ostream & operator << (ostream &f, const Item &i);
 public:
-    int i, c, m;
+	int i, c, m;
 
-    bool operator < (const Item s) {
+	bool operator < (const Item s) {
             return c < s.c;
-    }
+	}
 
-    bool operator >(const Item s) {
+	bool operator >(const Item s) {
             return c > s.c;
-    }
+	}
 };
 
 Item * Base = nullptr;
@@ -57,8 +57,8 @@ load()
 {
 
     if (Base != nullptr) {
-    delete[] Base;
-    Base = nullptr;
+	delete[] Base;
+	Base = nullptr;
     }
     std::ifstream f("input.txt");
     f >> len;

@@ -1,0 +1,57 @@
+Portage 2.2.20 (python 2.7.10-final-0, default/linux/x86/13.0/desktop, gcc-4.9.3, glibc-2.20-r2, 4.1.1-gentoo-r1-apcels_ssd i686)
+=================================================================
+System uname: Linux-4.1.1-gentoo-r1-apcels_ssd-i686-Intel-R-_Core-TM-_i5-2500K_CPU_@_3.30GHz-with-gentoo-2.2
+KiB Mem:     8205920 total,   5527896 free
+KiB Swap:          0 total,         0 free
+Timestamp of repository gentoo: Wed, 08 Jul 2015 13:15:01 +0000
+sh bash 4.3_p39
+ld GNU ld (Gentoo 2.25 p1.2) 2.25
+app-shells/bash:          4.3_p39::gentoo
+dev-java/java-config:     2.2.0::gentoo
+dev-lang/perl:            5.20.2-r1::gentoo
+dev-lang/python:          2.7.10::gentoo, 3.3.5-r1::gentoo
+dev-util/cmake:           3.2.3::gentoo
+dev-util/pkgconfig:       0.28-r3::gentoo
+sys-apps/baselayout:      2.2::gentoo
+sys-apps/openrc:          0.17::gentoo
+sys-apps/sandbox:         2.6-r1::gentoo
+sys-devel/autoconf:       2.13::gentoo, 2.69-r1::gentoo
+sys-devel/automake:       1.11.6-r1::gentoo, 1.14.1::gentoo, 1.15::gentoo
+sys-devel/binutils:       2.25-r1::gentoo
+sys-devel/gcc:            4.9.3::gentoo
+sys-devel/gcc-config:     1.8::gentoo
+sys-devel/libtool:        2.4.6-r1::gentoo
+sys-devel/make:           4.1-r1::gentoo
+sys-kernel/linux-headers: 4.1::gentoo (virtual/os-headers)
+sys-libs/glibc:           2.20-r2::gentoo
+Repositories:
+
+gentoo
+    location: /usr/portage
+    sync-type: rsync
+    sync-uri: rsync://rsync2.ru.gentoo.org/gentoo-portage
+    priority: -1000
+
+ACCEPT_KEYWORDS="x86 ~x86"
+ACCEPT_LICENSE="*"
+CBUILD="i686-pc-linux-gnu"
+CFLAGS="-O2 -march=corei7 -pipe"
+CHOST="i686-pc-linux-gnu"
+CONFIG_PROTECT="/etc /usr/share/gnupg/qualified.txt"
+CONFIG_PROTECT_MASK="/etc/ca-certificates.conf /etc/dconf /etc/env.d /etc/fonts/fonts.conf /etc/gconf /etc/gentoo-release /etc/revdep-rebuild /etc/sandbox.d /etc/terminfo /etc/texmf/language.dat.d /etc/texmf/language.def.d /etc/texmf/updmap.d /etc/texmf/web2c"
+CXXFLAGS="-O2 -march=corei7 -pipe"
+DISTDIR="/usr/portage/distfiles"
+FCFLAGS="-O2 -march=i686 -pipe"
+FEATURES="assume-digests binpkg-logs candy config-protect-if-modified distlocks fixlafiles merge-sync news parallel-fetch parallel-install preserve-libs protect-owned sandbox sfperms strict unknown-features-warn unmerge-logs unmerge-orphans unprivileged userfetch userpriv usersandbox usersync xattr"
+FFLAGS="-O2 -march=i686 -pipe"
+GENTOO_MIRRORS="http://mirror.yandex.ru/gentoo-distfiles/"
+LANG="en_US.utf8"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed"
+MAKEOPTS="-j5"
+PKGDIR="/usr/portage/packages"
+PORTAGE_CONFIGROOT="/"
+PORTAGE_RSYNC_OPTS="--recursive --links --safe-links --perms --times --omit-dir-times --compress --force --whole-file --delete --stats --human-readable --timeout=180 --exclude=/distfiles --exclude=/local --exclude=/packages"
+PORTAGE_TMPDIR="/var/tmp"
+USE="UTF-8 X a52 aac aalib acl acpi alsa apm berkdb bidi bluetooth branding bzip2 cairo calendar cdda cdr cli color colour consolekit cracklib crypt css cups cxx dbus dga djvu dri dts dv dvb dvd dvdr emboss encode enscript exif fam fftw firefox flac fortran ftp fuse gd gdbm geoip ggi gif gimp glamor glut gnutls gphoto2 gpm gsl gtk hddtemp hscolour iconv icq imlib inifile ipod ipv6 jabber jack java java6 jit jpeg jpeg2k latex lcms ldap libass libav libcaca libnotify libwww lm_sensors lua lzma lzo mad matroska matrox mdnsresponder-compat midi mime mmap mms mmx mmxext mng modules mozilla mp3 mp4 mpeg mplayer mule musepack nas ncurses nls nocd nptl nss ogg openal opencl opengl openmp pam pango pch pcre pdf perl plotutils png policykit portaudio posixppds ppds ppp python qt3support qt4 raw readline rss ruby screensaver sdl session smp sound spell sse sse2 sse3 sse4 ssl ssse3 startup-notification svg syslog tcpd theora threads tiff timidity truetype udev udisks unicode upnp upnp-av upower usb utf8 vaapi vcd videos vim-syntax vlc vnc vorbis wavpack webp wxwidgets x264 x86 xattr xcb xcomposite xinerama xml xmpp xpm xv xvid zeroconf zlib zsh-completion ~x86" ABI_X86="32" ALSA_CARDS="ali5451 als4000 atiixp atiixp-modem bt87x ca0106 cmipci emu10k1 emu10k1x ens1370 ens1371 es1938 es1968 fm801 hda-intel intel8x0 intel8x0m maestro3 trident usb-audio via82xx via82xx-modem ymfpci" APACHE2_MODULES="authn_core authz_core socache_shmcb unixd actions alias auth_basic authn_alias authn_anon authn_dbm authn_default authn_file authz_dbm authz_default authz_groupfile authz_host authz_owner authz_user autoindex cache cgi cgid dav dav_fs dav_lock deflate dir disk_cache env expires ext_filter file_cache filter headers include info log_config logio mem_cache mime mime_magic negotiation rewrite setenvif speling status unique_id userdir usertrack vhost_alias" CALLIGRA_FEATURES="kexi words flow plan sheets stage tables krita karbon braindump author" CAMERAS="ptp2" COLLECTD_PLUGINS="df interface irq load memory rrdtool swap syslog" CPU_FLAGS_X86="aes avx mmx mmxext popcnt sse sse2 sse3 sse4_1 sse4_2 ssse3" ELIBC="glibc" GPSD_PROTOCOLS="ashtech aivdm earthmate evermore fv18 garmin garmintxt gpsclock itrax mtk3301 nmea ntrip navcom oceanserver oldstyle oncore rtcm104v2 rtcm104v3 sirf superstar2 timing tsip tripmate tnt ublox ubx" INPUT_DEVICES="keyboard mouse evdev" KERNEL="linux" LCD_DEVICES="bayrad cfontz cfontz633 glk hd44780 lb216 lcdm001 mtxorb ncurses text" LIBREOFFICE_EXTENSIONS="presenter-console presenter-minimizer" LINGUAS="ru ru_RU en_GB en" OFFICE_IMPLEMENTATION="libreoffice" PHP_TARGETS="php5-5" PYTHON_SINGLE_TARGET="python2_7" PYTHON_TARGETS="python2_7 python3_3" RUBY_TARGETS="ruby19 ruby20 ruby21 ruby22" USERLAND="GNU" VIDEO_CARDS="intel" XTABLES_ADDONS="quota2 psd pknock lscan length2 ipv4options ipset ipp2p iface geoip fuzzy condition tee tarpit sysrq steal rawnat logmark ipmark dhcpmac delude chaos account"
+Unset:  CPPFLAGS, CTARGET, EMERGE_DEFAULT_OPTS, INSTALL_MASK, LC_ALL, PORTAGE_BUNZIP2_COMMAND, PORTAGE_COMPRESS, PORTAGE_COMPRESS_FLAGS, PORTAGE_RSYNC_EXTRA_OPTS, USE_PYTHON
+

@@ -48,7 +48,7 @@ __test_invert ()
 	m.put(1, 1, 3);
 	m.put(2, 2, 2);
 	std::cout << m.invert() << std::endl;
-	
+
 }
 void
 __test_transposition ()
@@ -101,9 +101,10 @@ __test_pow ()
 	/** Возведение в степень. 6 вариант*/
 	/** Быковский Артём **/
 	Matrix <int> m(1, 2, 3);
-	int test = 2;
-	std::cout << "Матрица: " << std::endl << m << std::endl;
-	std::cout << m^(test) << std::endl;
+	for (int test = 0; test < 3; test++ ) {
+		std::cout << "Матрица: " << std::endl << m << std::endl << "Степень: " << test << std::endl;
+		std::cout << m^(test) << std::endl << std::endl;
+	}
 }
 
 void

@@ -126,7 +126,7 @@ public:
 
 	/** Умножение матриц. Вариант 5 */
 	/* Ilina V.D. */
-	Matrix<_Type> & operator*(const Matrix<_Type> &that)
+	Matrix<_Type> operator*(const Matrix<_Type> &that)
 	{
 		Matrix<_Type> result(getRowCount(), that.getColCount(), 0);
 		for (int i = 0; i < getRowCount(); i++) {
@@ -141,20 +141,21 @@ public:
 	}
 
 	/** Возведение в степень. Вариант 6*/
-	/* Korotkov D.A. */
-	Matrix<_Type> & operator^(_Type number)
+	/* Быковский */
+	Matrix<_Type>  operator^(const int number)
 	{
-		for (int n = 0; n <= number; n++) {
-			for (int i = 0; i < getRowCount(); i++)	{
-				for (int j = 0; j < getColCount(); j++)	{
-					for (int k = 0; k < getColCount(); k++)	{
-						int value = get (i, k) * get (k, i);
-						this.put(i, j, value);
-					}
-				}
-			}
+		if(getRowCount() != getColCount()){
+			throw MatrixException("Invalid Size!");
 		}
-		return *this;
+
+		Matrix<_Type> result(getColCount(), getColCount(), 0);
+		for (int i = 0; i < getColCount(); i++) {
+			result.put(i, i, 1);
+		}
+		for (int i = 1; i <= number; i++){
+			result = result * (*this);
+		}
+		return result;
 	}
 
 	/**Обратная матрица. Вариант 8 (2)*/

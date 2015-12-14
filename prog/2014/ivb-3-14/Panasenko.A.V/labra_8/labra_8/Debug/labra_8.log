@@ -1,36 +1,48 @@
-﻿Сборка начата 30.04.2015 19:08:03.
-     1>Проект "C:\Users\Andrey\Documents\GitHub\2014\ivb-3-14\Panasenko.A.V\labra_8\labra_8\labra_8.vcxproj" в узле 2 (целевые объекты Build).
+﻿Сборка начата 19.09.2015 0:11:53.
+     1>Проект "C:\Users\Andrey\Documents\GitHub\ivb-3-14\prog\2014\ivb-3-14\Panasenko.A.V\labra_8\labra_8\labra_8.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\Хлебников.А.А\Лабораторная работа №8\Matrix\Matrix\main.cpp"
          main.cpp
-     1>c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(25): warning C4018: <: несоответствие типов со знаком и без знака
-     1>c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(26): warning C4018: <: несоответствие типов со знаком и без знака
-     1>c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(151): warning C4018: <: несоответствие типов со знаком и без знака
-                 c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(148): при компиляции функции-члена "bool Matrix<int>::isSymmetric(void) const" класса шаблон
-                 c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(14): см. ссылку на создание экземпляров функции шаблон при компиляции "bool Matrix<int>::isSymmetric(void) const"
-                 c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(9): см. ссылку на создание экземпляров класса шаблон при компиляции "Matrix<int>"
-     1>c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(152): warning C4018: <: несоответствие типов со знаком и без знака
-     1>c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(165): warning C4018: <: несоответствие типов со знаком и без знака
-                 c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(162): при компиляции функции-члена "int Matrix<int>::minor(int,int) const" класса шаблон
-                 c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(33): см. ссылку на создание экземпляров функции шаблон при компиляции "int Matrix<int>::minor(int,int) const"
-     1>c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(166): warning C4018: <: несоответствие типов со знаком и без знака
-     1>c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(187): warning C4018: >=: несоответствие типов со знаком и без знака
-                 c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(186): при компиляции функции-члена "void Matrix<int>::put(int,int,_Type)" класса шаблон
-                 with
-                 [
-                     _Type=int
-                 ]
-                 c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(27): см. ссылку на создание экземпляров функции шаблон при компиляции "void Matrix<int>::put(int,int,_Type)"
-                 with
-                 [
-                     _Type=int
-                 ]
-     1>c:\users\andrey\documents\github\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(190): warning C4018: >=: несоответствие типов со знаком и без знака
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Andrey\Documents\GitHub\2014\ivb-3-14\Panasenko.A.V\labra_8\Debug\labra_8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Andrey\Documents\GitHub\2014\ivb-3-14\Panasenko.A.V\labra_8\Debug\labra_8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Andrey\Documents\GitHub\2014\ivb-3-14\Panasenko.A.V\labra_8\Debug\labra_8.lib" /MACHINE:X86 Debug\main.obj
-         labra_8.vcxproj -> C:\Users\Andrey\Documents\GitHub\2014\ivb-3-14\Panasenko.A.V\labra_8\Debug\labra_8.exe
-     1>Сборка проекта "C:\Users\Andrey\Documents\GitHub\2014\ivb-3-14\Panasenko.A.V\labra_8\labra_8\labra_8.vcxproj" завершена (целевые объекты Build).
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(196): error C2556: Matrix<int> &Matrix<int>::invert(void): перегруженная функция отличается от "Matrix<int> Matrix<int>::invert(void)" только возвращаемым типом
+                 c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(160): см. объявление "Matrix<int>::invert"
+                 c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(10): см. ссылку на создание экземпляров класса шаблон при компиляции "Matrix<int>"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(196): error C2040: Matrix<int>::invert: "Matrix<int> &(void)" отличается по уровням косвенного обращения от "Matrix<int> (void)"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(197): error C2059: синтаксическая ошибка: return
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(197): error C2238: непредвиденные лексемы перед ";"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\matrix.h(201): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "Matrix"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(15): error C2039: isSymmetric: не является членом "Matrix<int>"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(47): error C2039: put: не является членом "Matrix<int>"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(48): error C2039: put: не является членом "Matrix<int>"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(49): error C2039: put: не является членом "Matrix<int>"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(59): error C2039: put: не является членом "Matrix<int>"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(60): error C2039: put: не является членом "Matrix<int>"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(61): error C2039: put: не является членом "Matrix<int>"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(72): error C2275: Matrix<int>: недопустимое использование этого типа в качестве выражения
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(72): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "a"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(72): error C3861: a: идентификатор не найден
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(73): error C2065: a: необъявленный идентификатор
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(73): error C2228: выражение слева от ".put" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(74): error C2065: a: необъявленный идентификатор
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(74): error C2228: выражение слева от ".put" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(75): error C2065: a: необъявленный идентификатор
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(75): error C2228: выражение слева от ".put" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(76): error C2065: a: необъявленный идентификатор
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(77): error C2065: a: необъявленный идентификатор
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(77): error C2228: выражение слева от ".determinant" должно представлять класс, структуру или объединение
+                 тип: unknown-type
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(87): error C2039: getRowCount: не является членом "Matrix<int>"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(88): error C2039: getColCount: не является членом "Matrix<int>"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(89): error C2039: put: не является членом "Matrix<int>"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(89): error C2039: get: не является членом "Matrix<int>"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(95): error C2039: minor: не является членом "Matrix<int>"
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(106): error C2563: несоответствие в списке формальных параметров
+     1>c:\users\andrey\documents\github\ivb-3-14\prog\2014\ivb-3-14\хлебников.а.а\лабораторная работа №8\matrix\matrix\main.cpp(106): error C2568: <<: не удается разрешить перегрузку функции
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(997): может быть "std::basic_ostream<_Elem,_Traits> &std::endl(std::basic_ostream<_Elem,_Traits> &)"
+     1>Сборка проекта "C:\Users\Andrey\Documents\GitHub\ivb-3-14\prog\2014\ivb-3-14\Panasenko.A.V\labra_8\labra_8\labra_8.vcxproj" завершена (целевые объекты Build) с ошибкой.
 
-Сборка успешно завершена.
+Ошибка сборки.
 
-Затраченное время: 00:00:02.83
+Затраченное время: 00:00:01.37

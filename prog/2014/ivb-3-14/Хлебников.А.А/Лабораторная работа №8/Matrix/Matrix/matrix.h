@@ -155,6 +155,21 @@ public:
 		return *this;
 	}
 
+	Matrix<_Type> & operator^(int number)
+	{
+		if (m.getRowCount() != m.getColCount())
+			throw MatrixException("Invalid size");
+		Matrix<_Type> result(m.getRowCount(), m.getRowCount(), 0)
+			for (int i = 0; i < m.getRowCount; i++)
+				result.put(i, i, 1);
+		//Теперь у нас есть единичная матрица нужного размера
+		std::cout « result « std::endl;
+		//если это не так, надо что-то редактиовать
+		for (int i = 1; i <= number; i++)
+			result = result * m;
+		return result;
+	}
+
 	/**Обратная матрица. Вариант 8 (2)*/
 	/* Folomkin A.A. */
 	Matrix<_Type> invert()
@@ -341,6 +356,8 @@ public:
 			throw MatrixException("Col");
 		_value[row][col] = value;
 	}
+
+
 private:
 	template<typename U> friend std::ostream& operator<<(std::ostream& os, const Matrix<U>& m);
 };

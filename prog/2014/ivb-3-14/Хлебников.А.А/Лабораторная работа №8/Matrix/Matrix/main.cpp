@@ -3,7 +3,7 @@
 #include "matrix.h"
 #include <ctime>
 #include <cstring>
-
+#include <iostream>
 void
 __test_isSymmetric()
 {
@@ -38,18 +38,18 @@ __test_operatorMinus()
 	std::cout << "Матрица B:" << std::endl << b;
 	std::cout << "Матрица A-B:" << std::endl << a - b << std::endl;
 }
-void
-__test_invert ()
-{
-	/** обратная матрица. Вариант 8 **/
-	/** Folomkin A.A. **/
-	Matrix <int> m(3, 3, 0);
-	m.put(0, 0, 5);
-	m.put(1, 1, 3);
-	m.put(2, 2, 2);
-	std::cout << m.invert() << std::endl;
-	
-}
+//void
+//__test_invert ()
+//{
+//	/** обратная матрица. Вариант 8 **/
+//	/** Folomkin A.A. **/
+//	Matrix <int> m(3, 3, 0);
+//	m.put(0, 0, 5);
+//	m.put(1, 1, 3);
+//	m.put(2, 2, 2);
+//	std::cout << m.invert() << std::endl;
+//	
+//}
 void
 __test_transposition ()
 {
@@ -63,19 +63,19 @@ __test_transposition ()
 	std::cout << "Transp.: " << std::endl;
 }
 
-void
-__test_determinant()
-{
-	/**Определитель матрицы. Вариант 10 (2)*/
-+	/*Лавринович  Иван*/
-	/*Zalyaliev R.R.*/
-	Matrix <int> a(3, 3, 0);
-	a.put(0, 0, 5);
-	a.put(1, 1, 3);
-	a.put(2, 2, 2);
-	std::cout << "Матрица A:" << std::endl << a;
-	std::cout << "det(A)=" << a.determinant() << std::endl;
-}
+//void
+//__test_determinant()
+//{
+//	/**Определитель матрицы. Вариант 10 (2)*/
+//+	/*Лавринович  Иван*/
+//	/*Zalyaliev R.R.*/
+//	Matrix <int> a(3, 3, 0);
+//	a.put(0, 0, 5);
+//	a.put(1, 1, 3);
+//	a.put(2, 2, 2);
+//	std::cout << "Матрица A:" << std::endl << a;
+//	std::cout << "det(A)=" << a.determinant() << std::endl;
+//}
 
 void
 __test_isMinor()
@@ -95,16 +95,16 @@ __test_isMinor()
 	std::cout << "Минор (" << row << "," << col << ") = " << m.minor(row, col) << std::endl << std::endl;
 }
 
-void
-__test_pow ()
-{
-	/** Возведение в степень. 6 вариант*/
-	/** Коротков Даниил **/
-	Matrix <int> m(1, 2, 3);
-	int test = 2;
-	std::cout << "Матрица: " << std::endl << m << std::endl;
-	std::cout << m^(test) << std::endl;
-}
+//void
+//__test_pow ()
+//{
+//	/** Возведение в степень. 6 вариант*/
+//	/** Коротков Даниил **/
+//	Matrix <int> m(1, 2, 3);
+//	int test = 2;
+//	std::cout << "Матрица: " << std::endl << m << std::endl;
+//	std::cout << m^(test) << std::endl;
+//}
 
 void
 __test_operatorMultByNumber()
@@ -133,6 +133,16 @@ __test_equality()
 	std::cout << "A<=B ?  " << (a <= b ? "Да" : "Нет") << std::endl << std::endl;
 }
 
+void
+pow()
+{
+	// Возведение в степень.
+	// Артём Быковский**/
+	Matrix <int> m(3, 3, 2);
+	int n = 2;
+	std::cout << m^n« std::endl;
+}
+
 int
 main(int argc, char **argv)
 {
@@ -140,9 +150,9 @@ main(int argc, char **argv)
 	__test_isSymmetric();
 	__test_operatorPlus();
 	__test_operatorMinus();
-	__test_determinant();
+	//__test_determinant();
 	__test_isMinor();
-	__test_pow();
+	//__test_pow();
 	__test_operatorMultByNumber();
 	__test_equality();
 	system("pause");

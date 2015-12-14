@@ -38,6 +38,7 @@ __test_operatorMinus()
 	std::cout << "Матрица B:" << std::endl << b;
 	std::cout << "Матрица A-B:" << std::endl << a - b << std::endl;
 }
+<<<<<<< HEAD
 //void
 //__test_invert ()
 //{
@@ -50,6 +51,20 @@ __test_operatorMinus()
 //	std::cout << m.invert() << std::endl;
 //	
 //}
+=======
+void
+__test_invert ()
+{
+	/** обратная матрица. Вариант 8 **/
+	/** Folomkin A.A. **/
+	Matrix <int> m(3, 3, 0);
+	m.put(0, 0, 5);
+	m.put(1, 1, 3);
+	m.put(2, 2, 2);
+	std::cout << m.invert() << std::endl;
+
+}
+>>>>>>> b228019606131753fd38a2a7c66502e0c474beec
 void
 __test_transposition ()
 {
@@ -95,6 +110,7 @@ __test_isMinor()
 	std::cout << "Минор (" << row << "," << col << ") = " << m.minor(row, col) << std::endl << std::endl;
 }
 
+<<<<<<< HEAD
 //void
 //__test_pow ()
 //{
@@ -105,6 +121,19 @@ __test_isMinor()
 //	std::cout << "Матрица: " << std::endl << m << std::endl;
 //	std::cout << m^(test) << std::endl;
 //}
+=======
+void
+__test_pow ()
+{
+	/** Возведение в степень. 6 вариант*/
+	/** Быковский Артём **/
+	Matrix <int> m(1, 2, 3);
+	for (int test = 0; test < 3; test++ ) {
+		std::cout << "Матрица: " << std::endl << m << std::endl << "Степень: " << test << std::endl;
+		std::cout << m^(test) << std::endl << std::endl;
+	}
+}
+>>>>>>> b228019606131753fd38a2a7c66502e0c474beec
 
 void
 __test_operatorMultByNumber()

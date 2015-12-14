@@ -5,6 +5,8 @@
 #include <exception>
 #include <algorithm>
 #include <ostream>
+#include <iomanip>
+#include <sstream>
 
 class MatrixException : public std::exception {
 	const char *_msg;
@@ -124,7 +126,7 @@ public:
 
 	/** Умножение матриц. Вариант 5 */
 	/* Ilina V.D. */
-	Matrix<_Type> & operator*(const Matrix<_Type> &that)
+	Matrix<_Type> operator*(const Matrix<_Type> &that)
 	{
 		Matrix<_Type> result(getRowCount(), that.getColCount(), 0);
 		for (int i = 0; i < getRowCount(); i++) {
@@ -139,20 +141,21 @@ public:
 	}
 
 	/** Возведение в степень. Вариант 6*/
-	/* Korotkov D.A. */
-	Matrix<_Type> & operator^(_Type number)
+	/* Быковский */
+	Matrix<_Type>  operator^(const int number)
 	{
-		for (int n = 0; n <= number; n++) {
-			for (int i = 0; i < getRowCount(); i++)	{
-				for (int j = 0; j < getColCount(); j++)	{
-					for (int k = 0; k < getColCount(); k++)	{
-						int value = get (i, k) * get (k, i);
-						this.put(i, j, value);
-					}
-				}
-			}
+		if(getRowCount() != getColCount()){
+			throw MatrixException("Invalid Size!");
 		}
-		return *this;
+
+		Matrix<_Type> result(getColCount(), getColCount(), 0);
+		for (int i = 0; i < getColCount(); i++) {
+			result.put(i, i, 1);
+		}
+		for (int i = 1; i <= number; i++){
+			result = result * (*this);
+		}
+		return result;
 	}
 
 	Matrix<_Type> & operator^(int number)
@@ -178,16 +181,16 @@ public:
 		if (size != getColCount()){
 			throw MatrixException("Invalid size");
 			return *this;
-			
+
 		}
 	Matrix<_Type> result(size, size, 0);
 	_Type det = determinant();
-	
+
 	if (det == 0)
 	{
 		throw MatrixException("Determinant = 0");
 		return *this;
-		
+
 	}
 	_Type temp;
 	bool _invert = false;
@@ -198,15 +201,15 @@ public:
 			temp /= det;
 			result.put(i, j, temp);
 			_invert = !_invert;
-			
+
 		}
-		
+
 	}
 	result = result.transposition();
 	return result;
-		
+
 	}
-	
+
 	Matrix<_Type> & invert()
 	{
 		return *this;
@@ -319,7 +322,7 @@ public:
 		}
 		return *this;
 	}
-	
+
 
 	/**Минор. Вариант 13 (2) Панасенко А.В. */
 	/* Basin G.J. */
@@ -362,16 +365,42 @@ private:
 	template<typename U> friend std::ostream& operator<<(std::ostream& os, const Matrix<U>& m);
 };
 
+
 template<typename _Type>
 std::ostream &operator<<(std::ostream &output, const Matrix<_Type> &m)
 {
 	/** Вариант 14. Максимов*/
-	if (m.getRowCount()) {
-		for each (auto line in m._value) {
-			for each (auto item in line)
-				std::cout << item << ' ';
-			std::cout << std::endl;
+	std::stringstream element;
+	std::streamsize maxSize = 0;
+	std::streamsize tmpSize = 0;
+	_Type testElement = '\0';
+
+	int colCount = m.getColCount();
+	int rowCount = m.getRowCount();
+
+	maxSize = 0;
+	for(int i = 0; i < rowCount; ++i) {
+		//output << std::setw(3) << maxSize << " | " << testElement << " | " <<  tmpSize << std::endl;
+		for(int j = 0; j < colCount; ++j) {
+			//output << m.get(i, j) << std::endl;
+			element << m.get(i, j) << ' ';
+			element.ignore(256, ' ');
+			tmpSize = element.gcount();
+			//std::cout << element.gcount();
+			//std::cout << testElement << std::endl;
+
+			if(maxSize < tmpSize) {
+				maxSize = tmpSize;
+			};
+		};
+	};
+	//return output;
+	//std::cout << maxSize;
+	for(int i = 0; i < rowCount; ++i) {
+		for(int j = 0; j < colCount; ++j) {
+			output << std::setw(maxSize + 1) << m.get(i, j);
 		}
+		output << std::endl;
 	}
 	return output;
 }
